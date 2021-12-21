@@ -1,5 +1,5 @@
-torhc.exe: torhc.o sha.o
-	g++ torhc.o sha.o -o torhc.exe
+torhc.exe: torhc.o mysha1.o
+	g++ torhc.o mysha1.o -o torhc.exe
 
 torhc.o: torhc.cpp
 	g++ -c torhc.cpp

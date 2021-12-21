@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include <fstream>
 #include <sstream>
 #include <vector>
@@ -7,7 +8,6 @@
 #include <string>
 #include <assert.h>
 #include "sha1.hpp"
-#include "mysha1.cpp"
 #define verbosedecode 0
 #define print_error_bad_torrent 1
 #define debugprint 0
